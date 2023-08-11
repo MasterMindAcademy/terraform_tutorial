@@ -8,24 +8,32 @@ https://computingforgeeks.com/how-to-install-terraform-on-ubuntu/?expand_article
 
 # First, install repository addition dependencies:
 
-$ sudo apt update
-
-$ sudo apt install  software-properties-common gnupg2 curl
+```bash
+sudo apt update
+sudo apt install  software-properties-common gnupg2 curl
+```
 
 # Now import repository GPG key:
 
-$ curl https://apt.releases.hashicorp.com/gpg | gpg --dearmor > hashicorp.gpg
-
-$ sudo install -o root -g root -m 644 
+```bash
+curl https://apt.releases.hashicorp.com/gpg | gpg --dearmor > hashicorp.gpg
+sudo install -o root -g root -m 644 
+```
 
 # With the key imported now add Hashicorp repository to your Ubuntu system:
 
-$ sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+```bash
+sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+```
 
 # Now install terraform on your Ubuntu Linux system:
 
-$ sudo apt install terraform
+```bash
+sudo apt install terraform
+```
 
 # Check the version of terraform installed on your system:
 
-$ terraform --version
+```bash
+terraform --version
+```
