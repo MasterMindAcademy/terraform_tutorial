@@ -1,5 +1,9 @@
 # INSTALLATION TERRAFORM ON MAC
 
+# REFERENCE LINK: 
+
+https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+
 # Install Homebrew on mac terminal    
 
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
