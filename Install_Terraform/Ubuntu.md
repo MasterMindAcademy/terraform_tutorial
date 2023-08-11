@@ -1,6 +1,10 @@
 # INSTALL TERRAFROM ON UBUNTU 
 
-# REFERENCE LINK: https://computingforgeeks.com/how-to-install-terraform-on-ubuntu/?expand_article=1
+# REFERENCE LINK: 
+
+```bash
+https://computingforgeeks.com/how-to-install-terraform-on-ubuntu/?expand_article=1
+```
 
 # First, install repository addition dependencies:
 
